@@ -9,10 +9,13 @@ lerna-debug.log*
 
 node_modules
 dist
+/api-gateway/dist
 dist-ssr
 *.local
 
 .env
+/api-gateway/.env
+/frontend/.env
 
 # Editor directories and files
 .vscode/*
@@ -41,3 +44,18 @@ dist-ssr
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Tests
+.nyc_output
+
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
