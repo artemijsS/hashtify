@@ -1,13 +1,13 @@
-import { Controller, Get } from '@nestjs/common';
+import {Controller, Get, Query} from '@nestjs/common';
 import { HashtagService } from "./hashtag.service";
 
 @Controller('hashtag')
 export class HashtagController {
 
-    constructor(private hashtagService: HashtagService) {}
+    constructor(private readonly hashtagService: HashtagService) {}
 
     @Get()
-    helloGet() {
-        return this.hashtagService.getHello();
+    hashtagsGet(@Query('text') text: string) {
+        return this.hashtagService.getHashtags(text);
     }
 }

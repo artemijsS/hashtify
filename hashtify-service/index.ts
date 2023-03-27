@@ -8,7 +8,7 @@ dotenv.config();
 const app: Express = express();
 const port = process.env.PORT || 8000;
 
-app.use('/hashtag', hashtagRoutes);
+app.use('/hashtags', hashtagRoutes);
 
 app.listen(port, () => {
     console.log(`⚡️[hashtify-service]: Server is running at http://localhost:${port}`);
