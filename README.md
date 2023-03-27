@@ -17,9 +17,6 @@ Use the package manager [npm](https://docs.npmjs.com/downloading-and-installing-
 ```cmd
 cd frontend
 npm install
-
-cd client
-npm install
 ```
 
 Use the package manager [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to install all dependencies for API Gateway.
