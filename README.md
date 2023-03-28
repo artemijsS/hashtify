@@ -1,4 +1,7 @@
-# Hashtify
+<h1 align="center">
+    <img width="160" height="86" src="logo.svg" alt=""><br>
+    jsdom
+</h1>
 
 Hashtify is a service for selecting the best hashtags/images and google search statistics for your word/phrase.
 Implemented in a micro service architecture.
