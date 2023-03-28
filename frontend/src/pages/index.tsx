@@ -71,18 +71,13 @@ export default function Home() {
                     datasets: [{
                         data: trendsData.map(trend => trend.value[0]),
                         label: "Trend",
-                        borderColor: "#3e95cd",
-                        backgroundColor: "#7bb6dd",
+                        borderColor: "#56628C",
+                        backgroundColor: "#8899D7",
                         fill: false,
                     }]
                 },
                 options: {
                     responsive: true,
-                    title: {
-                        display: false,
-                        text: "Trend chart",
-                        fontColor: "#8899D7",
-                    },
                     hover: {
                         mode: "nearest",
                         intersect: true,
