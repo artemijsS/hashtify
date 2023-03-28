@@ -19,7 +19,7 @@ interface Hashtag {
 // /hashtags
 router.get('', async (req: Request, res: Response) => {
     try {
-        const text = req.query.text;
+        const text = req.query.text as string;
 
         if (!text) return res.status(400).json({ error: "No text provided" });
         if (text.length > 1000) return res.status(400).json({ error: "Text text is too long" });
