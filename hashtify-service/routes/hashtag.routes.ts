@@ -15,13 +15,6 @@ interface Hashtag {
     "color": number
 }
 
-interface RiteKitResponse {
-    result: boolean,
-    code: number,
-    message: string,
-    data: Hashtag[]
-}
-
 
 // /hashtags
 router.get('', async (req: Request, res: Response) => {

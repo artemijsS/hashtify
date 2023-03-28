@@ -1,6 +1,6 @@
 # Hashtify
 
-Hashtify is a service for selecting the best hashtags for your word/phrase.
+Hashtify is a service for selecting the best hashtags/images and google search statistics for your word/phrase.
 Implemented in a micro service architecture.
 
 ## Prerequisites
